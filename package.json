@@ -1,0 +1,37 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "ecommerce website of all common ecommerce websites",
+  "main": "controller.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "Eloho Kennedy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "cheerio": "^1.0.0-rc.10",
+    "cryptr": "^6.0.3",
+    "date-and-time": "^2.3.1",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.4.0",
+    "helmet": "^5.0.2",
+    "hpp": "^0.2.3",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9",
+    "nodemailer": "^6.7.3",
+    "try-to-catch": "^3.0.1",
+    "twilio": "^3.76.1",
+    "validator": "^13.7.0",
+    "xss-clean": "^0.1.1"
+  }
+}
